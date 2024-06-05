@@ -1,0 +1,30 @@
+body{
+    font-family: var(--fonte-principal);
+    background: var(--fundo-pagina);
+}
+
+.nav span{
+    color: var(--destaque-pagina);
+    font-weight: 600;
+    text-shadow: 3px 5px 5px var(--destaque-pagina);
+    font-size: 24px;
+}
+.nav{
+    display: flex;
+    margin-top: 45px;
+    margin-left: 100px;
+}
+.nav__link{
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    gap: 15px;
+    margin-left: 1000px;
+}
+
+.nav a{
+    color:var(--texto-pagina);
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+}
